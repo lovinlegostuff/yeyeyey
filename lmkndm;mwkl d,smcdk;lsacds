@@ -1,0 +1,563 @@
+
+
+local emotescreen = Instance.new("ScreenGui")
+local emotegui = Instance.new("Frame")
+local guiround = Instance.new("ImageLabel")
+local Zen = Instance.new("TextButton")
+local zenround = Instance.new("ImageLabel")
+local zentitle = Instance.new("TextLabel")
+local floss = Instance.new("TextButton")
+local flossround = Instance.new("ImageLabel")
+local flosstitl = Instance.new("TextLabel")
+local ninja = Instance.new("TextButton")
+local ninjaround = Instance.new("ImageLabel")
+local flosstitl_2 = Instance.new("TextLabel")
+local dab = Instance.new("TextButton")
+local dabround = Instance.new("ImageLabel")
+local dabtitle = Instance.new("TextLabel")
+local spraypaint = Instance.new("TextButton")
+local spraypaintround = Instance.new("ImageLabel")
+local SprayPaint = Instance.new("TextLabel")
+local sit = Instance.new("TextButton")
+local sitround = Instance.new("ImageLabel")
+local sitlabel = Instance.new("TextLabel")
+local Headless = Instance.new("TextButton")
+local headlessround = Instance.new("ImageLabel")
+local headlesslabel = Instance.new("TextLabel")
+local Zombie = Instance.new("TextButton")
+local zombielabel = Instance.new("ImageLabel")
+local zombielabel_2 = Instance.new("TextLabel")
+local title = Instance.new("TextLabel")
+local exit = Instance.new("TextButton")
+local exitround = Instance.new("ImageLabel")
+local exitlabel = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+
+
+emotescreen.Name = "emote screen"
+emotescreen.Parent = game.CoreGui
+
+emotegui.Name = "emotegui"
+emotegui.Parent = emotescreen
+emotegui.Active = true
+emotegui.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+emotegui.BorderSizePixel = 0
+emotegui.Position = UDim2.new(0.391785145, 0, 0.136006773, 0)
+emotegui.Size = UDim2.new(0, 238, 0, 292)
+emotegui.Draggable = true
+
+guiround.Name = "guiround"
+guiround.Parent = emotegui
+guiround.AnchorPoint = Vector2.new(0.5, 0.5)
+guiround.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+guiround.BackgroundTransparency = 1.000
+guiround.Position = UDim2.new(0.627785563, 0, 0.562851965, 0)
+guiround.Size = UDim2.new(1.32352936, 24, 1.18835616, 24)
+guiround.Image = "rbxassetid://3570695787"
+guiround.ImageColor3 = Color3.fromRGB(25, 25, 25)
+guiround.ScaleType = Enum.ScaleType.Slice
+guiround.SliceCenter = Rect.new(100, 100, 100, 100)
+guiround.Active = true
+
+Zen.Name = "Zen"
+Zen.Parent = emotegui
+Zen.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Zen.BorderSizePixel = 0
+Zen.Position = UDim2.new(0.0769230872, 0, 0.243697494, 0)
+Zen.Size = UDim2.new(0, 95, 0, 39)
+Zen.Font = Enum.Font.SourceSans
+Zen.Text = "bruh"
+Zen.TextColor3 = Color3.fromRGB(170, 0, 0)
+Zen.TextSize = 14.000
+
+zenround.Name = "zenround"
+zenround.Parent = Zen
+zenround.AnchorPoint = Vector2.new(0.5, 0.5)
+zenround.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+zenround.BackgroundTransparency = 1.000
+zenround.Position = UDim2.new(0.494846404, 0, 0.490751028, 0)
+zenround.Size = UDim2.new(0.947368443, 24, 0.710805237, 24)
+zenround.Image = "rbxassetid://3570695787"
+zenround.ImageColor3 = Color3.fromRGB(45, 45, 45)
+zenround.ScaleType = Enum.ScaleType.Slice
+zenround.SliceCenter = Rect.new(100, 100, 100, 100)
+
+zentitle.Name = "zentitle"
+zentitle.Parent = zenround
+zentitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+zentitle.BackgroundTransparency = 1.000
+zentitle.Size = UDim2.new(0, 114, 0, 50)
+zentitle.Font = Enum.Font.SourceSans
+zentitle.Text = "Zen"
+zentitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+zentitle.TextSize = 34.000
+zentitle.TextWrapped = true
+
+floss.Name = "floss"
+floss.Parent = emotegui
+floss.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+floss.BorderSizePixel = 0
+floss.Position = UDim2.new(0.0732600838, 0, 0.445378184, 0)
+floss.Size = UDim2.new(0, 95, 0, 39)
+floss.Font = Enum.Font.SourceSans
+floss.Text = "Floss"
+floss.TextColor3 = Color3.fromRGB(170, 0, 0)
+floss.TextSize = 14.000
+
+flossround.Name = "flossround"
+flossround.Parent = floss
+flossround.AnchorPoint = Vector2.new(0.5, 0.5)
+flossround.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+flossround.BackgroundTransparency = 1.000
+flossround.Position = UDim2.new(0.505372763, 0, 0.490751028, 0)
+flossround.Size = UDim2.new(0.947368443, 24, 0.710805237, 24)
+flossround.Image = "rbxassetid://3570695787"
+flossround.ImageColor3 = Color3.fromRGB(45, 45, 45)
+flossround.ScaleType = Enum.ScaleType.Slice
+flossround.SliceCenter = Rect.new(100, 100, 100, 100)
+
+flosstitl.Name = "flosstitl"
+flosstitl.Parent = flossround
+flosstitl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+flosstitl.BackgroundTransparency = 1.000
+flosstitl.Position = UDim2.new(-0.00877192989, 0, 7.4505806e-09, 0)
+flosstitl.Size = UDim2.new(0, 114, 0, 50)
+flosstitl.Font = Enum.Font.SourceSans
+flosstitl.Text = "Floss"
+flosstitl.TextColor3 = Color3.fromRGB(0, 0, 0)
+flosstitl.TextSize = 34.000
+flosstitl.TextWrapped = true
+
+ninja.Name = "ninja"
+ninja.Parent = emotegui
+ninja.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+ninja.BorderSizePixel = 0
+ninja.Position = UDim2.new(0.0769230872, 0, 0.638655484, 0)
+ninja.Size = UDim2.new(0, 95, 0, 39)
+ninja.Font = Enum.Font.SourceSans
+ninja.Text = "Floss"
+ninja.TextColor3 = Color3.fromRGB(170, 0, 0)
+ninja.TextSize = 14.000
+
+ninjaround.Name = "ninjaround"
+ninjaround.Parent = ninja
+ninjaround.AnchorPoint = Vector2.new(0.5, 0.5)
+ninjaround.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ninjaround.BackgroundTransparency = 1.000
+ninjaround.Position = UDim2.new(0.494846433, 0, 0.490751028, 0)
+ninjaround.Size = UDim2.new(0.947368443, 24, 0.710805237, 24)
+ninjaround.Image = "rbxassetid://3570695787"
+ninjaround.ImageColor3 = Color3.fromRGB(45, 45, 45)
+ninjaround.ScaleType = Enum.ScaleType.Slice
+ninjaround.SliceCenter = Rect.new(100, 100, 100, 100)
+
+flosstitl_2.Name = "flosstitl"
+flosstitl_2.Parent = ninjaround
+flosstitl_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+flosstitl_2.BackgroundTransparency = 1.000
+flosstitl_2.Size = UDim2.new(0, 114, 0, 50)
+flosstitl_2.Font = Enum.Font.SourceSans
+flosstitl_2.Text = "Ninja"
+flosstitl_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+flosstitl_2.TextSize = 34.000
+flosstitl_2.TextWrapped = true
+
+dab.Name = "dab"
+dab.Parent = emotegui
+dab.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+dab.BorderSizePixel = 0
+dab.Position = UDim2.new(0.0769230872, 0, 0.869603992, 0)
+dab.Size = UDim2.new(0, 95, 0, 39)
+dab.Font = Enum.Font.SourceSans
+dab.Text = "Floss"
+dab.TextColor3 = Color3.fromRGB(170, 0, 0)
+dab.TextSize = 14.000
+
+dabround.Name = "dabround"
+dabround.Parent = dab
+dabround.AnchorPoint = Vector2.new(0.5, 0.5)
+dabround.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+dabround.BackgroundTransparency = 1.000
+dabround.Position = UDim2.new(0.494846463, 0, 0.490751028, 0)
+dabround.Size = UDim2.new(0.947368443, 24, 0.710805237, 24)
+dabround.Image = "rbxassetid://3570695787"
+dabround.ImageColor3 = Color3.fromRGB(45, 45, 45)
+dabround.ScaleType = Enum.ScaleType.Slice
+dabround.SliceCenter = Rect.new(100, 100, 100, 100)
+
+dabtitle.Name = "dabtitle"
+dabtitle.Parent = dabround
+dabtitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dabtitle.BackgroundTransparency = 1.000
+dabtitle.Position = UDim2.new(-0.00877195597, 0, 0.0193343163, 0)
+dabtitle.Size = UDim2.new(0, 114, 0, 50)
+dabtitle.Font = Enum.Font.SourceSans
+dabtitle.Text = "Dab"
+dabtitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+dabtitle.TextSize = 34.000
+dabtitle.TextWrapped = true
+
+spraypaint.Name = "spraypaint"
+spraypaint.Parent = emotegui
+spraypaint.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+spraypaint.BorderSizePixel = 0
+spraypaint.Position = UDim2.new(0.858651161, 0, 0.236848146, 0)
+spraypaint.Size = UDim2.new(0, 95, 0, 39)
+spraypaint.Font = Enum.Font.SourceSans
+spraypaint.Text = "Floss"
+spraypaint.TextColor3 = Color3.fromRGB(170, 0, 0)
+spraypaint.TextSize = 14.000
+
+spraypaintround.Name = "spraypaintround"
+spraypaintround.Parent = spraypaint
+spraypaintround.AnchorPoint = Vector2.new(0.5, 0.5)
+spraypaintround.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+spraypaintround.BackgroundTransparency = 1.000
+spraypaintround.Position = UDim2.new(0.494846523, 0, 0.490751266, 0)
+spraypaintround.Size = UDim2.new(0.947368443, 24, 0.710805237, 24)
+spraypaintround.Image = "rbxassetid://3570695787"
+spraypaintround.ImageColor3 = Color3.fromRGB(45, 45, 45)
+spraypaintround.ScaleType = Enum.ScaleType.Slice
+spraypaintround.SliceCenter = Rect.new(100, 100, 100, 100)
+
+SprayPaint.Name = "SprayPaint"
+SprayPaint.Parent = spraypaintround
+SprayPaint.Active = true
+SprayPaint.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SprayPaint.BackgroundTransparency = 1.000
+SprayPaint.Position = UDim2.new(-0.0701754093, 0, -0.0193340778, 0)
+SprayPaint.Size = UDim2.new(0, 130, 0, 50)
+SprayPaint.Font = Enum.Font.SourceSans
+SprayPaint.Text = "SprayPaint"
+SprayPaint.TextColor3 = Color3.fromRGB(0, 0, 0)
+SprayPaint.TextSize = 34.000
+SprayPaint.TextWrapped = true
+
+sit.Name = "sit"
+sit.Parent = emotegui
+sit.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+sit.BorderSizePixel = 0
+sit.Position = UDim2.new(0.858651161, 0, 0.445378125, 0)
+sit.Size = UDim2.new(0, 95, 0, 39)
+sit.Font = Enum.Font.SourceSans
+sit.Text = "Sit"
+sit.TextColor3 = Color3.fromRGB(170, 0, 0)
+sit.TextSize = 14.000
+
+sitround.Name = "sitround"
+sitround.Parent = sit
+sitround.AnchorPoint = Vector2.new(0.5, 0.5)
+sitround.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+sitround.BackgroundTransparency = 1.000
+sitround.Position = UDim2.new(0.494846582, 0, 0.49075079, 0)
+sitround.Size = UDim2.new(0.947368443, 24, 0.710805237, 24)
+sitround.Image = "rbxassetid://3570695787"
+sitround.ImageColor3 = Color3.fromRGB(45, 45, 45)
+sitround.ScaleType = Enum.ScaleType.Slice
+sitround.SliceCenter = Rect.new(100, 100, 100, 100)
+
+sitlabel.Name = "sitlabel"
+sitlabel.Parent = sitround
+sitlabel.Active = true
+sitlabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+sitlabel.BackgroundTransparency = 1.000
+sitlabel.Position = UDim2.new(-0.0701755285, 0, 1.93715096e-07, 0)
+sitlabel.Size = UDim2.new(0, 130, 0, 50)
+sitlabel.Font = Enum.Font.SourceSans
+sitlabel.Text = "Sit"
+sitlabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+sitlabel.TextSize = 34.000
+sitlabel.TextWrapped = true
+
+Headless.Name = "Headless"
+Headless.Parent = emotegui
+Headless.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Headless.BorderSizePixel = 0
+Headless.Position = UDim2.new(0.858651161, 0, 0.650176466, 0)
+Headless.Size = UDim2.new(0, 95, 0, 39)
+Headless.Font = Enum.Font.SourceSans
+Headless.Text = "Sit"
+Headless.TextColor3 = Color3.fromRGB(170, 0, 0)
+Headless.TextSize = 14.000
+
+headlessround.Name = "headlessround"
+headlessround.Parent = Headless
+headlessround.AnchorPoint = Vector2.new(0.5, 0.5)
+headlessround.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+headlessround.BackgroundTransparency = 1.000
+headlessround.Position = UDim2.new(0.494846582, 0, 0.490751266, 0)
+headlessround.Size = UDim2.new(0.947368443, 24, 0.710805237, 24)
+headlessround.Image = "rbxassetid://3570695787"
+headlessround.ImageColor3 = Color3.fromRGB(45, 45, 45)
+headlessround.ScaleType = Enum.ScaleType.Slice
+headlessround.SliceCenter = Rect.new(100, 100, 100, 100)
+
+headlesslabel.Name = "headlesslabel"
+headlesslabel.Parent = headlessround
+headlesslabel.Active = true
+headlesslabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+headlesslabel.BackgroundTransparency = 1.000
+headlesslabel.Position = UDim2.new(-0.0701754391, 0, 2.38418579e-07, 0)
+headlesslabel.Size = UDim2.new(0, 130, 0, 50)
+headlesslabel.Font = Enum.Font.SourceSans
+headlesslabel.Text = "Headless"
+headlesslabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+headlesslabel.TextSize = 34.000
+headlesslabel.TextWrapped = true
+
+Zombie.Name = "Zombie"
+Zombie.Parent = emotegui
+Zombie.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Zombie.BorderSizePixel = 0
+Zombie.Position = UDim2.new(0.855526865, 0, 0.849372566, 0)
+Zombie.Size = UDim2.new(0, 95, 0, 39)
+Zombie.Font = Enum.Font.SourceSans
+Zombie.Text = "Sit"
+Zombie.TextColor3 = Color3.fromRGB(170, 0, 0)
+Zombie.TextSize = 14.000
+
+zombielabel.Name = "zombielabel"
+zombielabel.Parent = Zombie
+zombielabel.AnchorPoint = Vector2.new(0.5, 0.5)
+zombielabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+zombielabel.BackgroundTransparency = 1.000
+zombielabel.Position = UDim2.new(0.494846672, 0, 0.490751028, 0)
+zombielabel.Size = UDim2.new(0.947368443, 24, 0.710805237, 24)
+zombielabel.Image = "rbxassetid://3570695787"
+zombielabel.ImageColor3 = Color3.fromRGB(45, 45, 45)
+zombielabel.ScaleType = Enum.ScaleType.Slice
+zombielabel.SliceCenter = Rect.new(100, 100, 100, 100)
+
+zombielabel_2.Name = "zombielabel"
+zombielabel_2.Parent = zombielabel
+zombielabel_2.Active = true
+zombielabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+zombielabel_2.BackgroundTransparency = 1.000
+zombielabel_2.Position = UDim2.new(-0.0701753795, 0, 2.38418579e-07, 0)
+zombielabel_2.Size = UDim2.new(0, 130, 0, 50)
+zombielabel_2.Font = Enum.Font.SourceSans
+zombielabel_2.Text = "Zombie"
+zombielabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+zombielabel_2.TextSize = 34.000
+zombielabel_2.TextWrapped = true
+
+title.Name = "title"
+title.Parent = emotegui
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.Position = UDim2.new(0.203512192, 0, 0, 0)
+title.Size = UDim2.new(0, 200, 0, 50)
+title.Font = Enum.Font.GothamBlack
+title.Text = "Emotes"
+title.TextColor3 = Color3.fromRGB(0, 0, 0)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+
+exit.Name = "exit"
+exit.Parent = emotegui
+exit.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+exit.BackgroundTransparency = -0.010
+exit.BorderSizePixel = 0
+exit.Position = UDim2.new(1.14059472, 0, -0.0495088473, 0)
+exit.Size = UDim2.new(0, 36, 0, 33)
+exit.Font = Enum.Font.SourceSans
+exit.Text = ""
+exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+exit.TextSize = 14.000
+
+exitround.Name = "exitround"
+exitround.Parent = exit
+exitround.AnchorPoint = Vector2.new(0.5, 0.5)
+exitround.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exitround.BackgroundTransparency = 1.000
+exitround.Position = UDim2.new(0.5, 0, 0.485390186, 0)
+exitround.Size = UDim2.new(0.611111104, 24, 0.544371188, 24)
+exitround.Image = "rbxassetid://3570695787"
+exitround.ImageColor3 = Color3.fromRGB(255, 0, 0)
+exitround.ScaleType = Enum.ScaleType.Slice
+exitround.SliceCenter = Rect.new(100, 100, 100, 100)
+
+exitlabel.Name = "exitlabel"
+exitlabel.Parent = exit
+exitlabel.Active = true
+exitlabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exitlabel.BackgroundTransparency = 1.000
+exitlabel.Position = UDim2.new(-0.166666627, 0, -0.0909092128, 0)
+exitlabel.Size = UDim2.new(0, 48, 0, 37)
+exitlabel.Font = Enum.Font.SourceSans
+exitlabel.Text = "X"
+exitlabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+exitlabel.TextScaled = true
+exitlabel.TextSize = 14.000
+exitlabel.TextWrapped = true
+
+TextLabel.Parent = emotegui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.00316664577, 0, 1.09402931, 0)
+TextLabel.Size = UDim2.new(0, 294, 0, 29)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Made by xenny#8887"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 20.000
+TextLabel.TextWrapped = true
+
+-- Scripts:
+
+local function HVEH_fake_script() -- Zen.LocalScript 
+	local script = Instance.new('LocalScript', Zen)
+
+	Zen.MouseButton1Click:Connect(function()
+	local string_1 = "zen";
+	local Target = game:GetService("ReplicatedStorage").PlayEmote;
+	Target:Fire(string_1);
+	end)
+	
+end
+coroutine.wrap(HVEH_fake_script)()
+local function AEXTE_fake_script() -- floss.LocalScript 
+	local script = Instance.new('LocalScript', floss)
+
+	floss.MouseButton1Click:Connect(function()
+	local string_1 = "floss";
+	local Target = game:GetService("ReplicatedStorage").PlayEmote;
+	Target:Fire(string_1);
+	end)
+	
+end
+coroutine.wrap(AEXTE_fake_script)()
+local function QFHFOY_fake_script() -- ninja.LocalScript 
+	local script = Instance.new('LocalScript', ninja)
+
+	ninja.MouseButton1Click:Connect(function()
+	local string_1 = "ninja";
+	local Target = game:GetService("ReplicatedStorage").PlayEmote;
+	Target:Fire(string_1);
+	end)
+	
+end
+coroutine.wrap(QFHFOY_fake_script)()
+local function KPYK_fake_script() -- dab.LocalScript 
+	local script = Instance.new('LocalScript', dab)
+
+	dab.MouseButton1Click:Connect(function()
+	local string_1 = "dab";
+	local Target = game:GetService("ReplicatedStorage").PlayEmote;
+	Target:Fire(string_1);
+	end)
+	
+end
+coroutine.wrap(KPYK_fake_script)()
+local function XRCJBI_fake_script() -- spraypaint.LocalScript 
+	local script = Instance.new('LocalScript', spraypaint)
+
+	spraypaint.MouseButton1Click:Connect(function()
+	local string_1 = "SprayPaint";
+	local Target = game:GetService("ReplicatedStorage").PlayEmote;
+	Target:Fire(string_1);
+	end)
+	
+end
+coroutine.wrap(XRCJBI_fake_script)()
+local function WRRXA_fake_script() -- sit.LocalScript 
+	local script = Instance.new('LocalScript', sit)
+
+	sit.MouseButton1Click:Connect(function()
+	local string_1 = "sit";
+	local Target = game:GetService("ReplicatedStorage").PlayEmote;
+	Target:Fire(string_1);
+	end)
+	
+end
+coroutine.wrap(WRRXA_fake_script)()
+local function DYUR_fake_script() -- Headless.LocalScript 
+	local script = Instance.new('LocalScript', Headless)
+
+	Headless.MouseButton1Click:Connect(function()
+	local string_1 = "headless";
+	local Target = game:GetService("ReplicatedStorage").PlayEmote;
+	Target:Fire(string_1);
+	end)
+	
+end
+coroutine.wrap(DYUR_fake_script)()
+local function XLZCJQG_fake_script() -- Zombie.LocalScript 
+	local script = Instance.new('LocalScript', Zombie)
+
+	Zombie.MouseButton1Click:Connect(function()
+	local string_1 = "zombie";
+	local Target = game:GetService("ReplicatedStorage").PlayEmote;
+	Target:Fire(string_1);
+	end)
+	
+end
+coroutine.wrap(XLZCJQG_fake_script)()
+local function XHTXMO_fake_script() -- exit.LocalScript 
+	local script = Instance.new('LocalScript', exit)
+
+	exit.MouseButton1Down:connect(function()
+	emotegui.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(XHTXMO_fake_script)()
+local function VZDKX_fake_script() -- emotegui.bad tween 
+	local script = Instance.new('LocalScript', emotegui)
+
+	local object = script.Parent
+	object.AnchorPoint = Vector2.new(0.5, 0.5)
+	object.Position = UDim2.new(0.1, 0, 0.5, 0)
+	 
+	wait(2)
+	 
+	object:TweenPosition(UDim2.new(0.5, 0, 0.5, 0))
+	
+end
+coroutine.wrap(VZDKX_fake_script)()
+local function IRZRW_fake_script() -- emotescreen.Dragify 
+	local script = Instance.new('LocalScript', emotescreen)
+
+	local UIS = game:GetService("UserInputService")
+		function dragify(Frame)
+		    dragToggle = nil
+		    local dragSpeed = 0
+		    dragInput = nil
+		    dragStart = nil
+		    local dragPos = nil
+		    function updateInput(input)
+		        local Delta = input.Position - dragStart
+		        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+		        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+		    end
+		    Frame.InputBegan:Connect(function(input)
+		        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+		            dragToggle = true
+		            dragStart = input.Position
+		            startPos = Frame.Position
+		            input.Changed:Connect(function()
+		                if input.UserInputState == Enum.UserInputState.End then
+		                    dragToggle = false
+		                end
+		            end)
+		        end
+		    end)
+		    Frame.InputChanged:Connect(function(input)
+		        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+		            dragInput = input
+		        end
+		    end)
+		    game:GetService("UserInputService").InputChanged:Connect(function(input)
+		        if input == dragInput and dragToggle then
+		            updateInput(input)
+		        end
+		    end)
+		end
+		
+		dragify(script.Parent)
+	
+	
+end
+coroutine.wrap(IRZRW_fake_script)()
